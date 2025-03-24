@@ -1,6 +1,3 @@
-# sup bitches
-# this resource is AS IS, there will be no support provided. This was made for personal use.
-# Br3ndino Dev
 # br3ndino_cotton
 
 # DEPENDENCIES:
@@ -24,4 +21,4 @@
     fake_police                  = { name = 'fake_police', label = 'Fake Police Uniform', weight = 100, type = 'item', image = 'fake_police.png', unique = false, useable = false, shouldClose = false, description = 'A fake police uniform' },
 
 3. Drag the resource over into an ensured folder, or manually ensure br3ndino_cotton.
-4. Restart that bitch and enjoy
+4. Restart and enjoy
