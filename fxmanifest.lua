@@ -17,5 +17,5 @@ dependencies {
     'qb-core',
     'qb-target',
     'ox_lib',
-    'progressBars' -- Optional for loading bar
+    'progressbar' -- Optional for loading bar
 }

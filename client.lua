@@ -2,7 +2,7 @@ local lib = exports.ox_lib
 local QBCore = exports['qb-core']:GetCoreObject()
 
 -- Crafting location (textile crafting area)
-local craftingLocation = vector3(718.5981, -964.1033, 30.3953)
+local craftingLocation = vector3(718.6765, -963.7034, 30.4178)
 
 -- Create the crafting location with qb-target
 Citizen.CreateThread(function()
@@ -79,7 +79,7 @@ RegisterNetEvent("textile:openCraftingMenu", function()
                 onSelect = function()
                     TriggerServerEvent("textile:startCrafting", 20, "purse")
                 end
-            }
+            },
             {
                 title = "👚 Fake Designer Shirt",
                 description = "Requires 25 Cotton",
@@ -107,14 +107,14 @@ RegisterNetEvent("textile:openCraftingMenu", function()
                 onSelect = function()
                     TriggerServerEvent("textile:startCrafting", 40, "fake_police")
                 end
-            }
+            },
             {
                 title = "🩹 Bandaid",
                 description = "Requires 50 Cotton",
                 onSelect = function()
                     TriggerServerEvent("textile:startCrafting", 50, "bandage")
                 end
-            }
+            },
         }
 
         -- Show the context menu with ox_lib:registerContext
